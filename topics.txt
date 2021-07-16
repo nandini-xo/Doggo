@@ -1,0 +1,13 @@
+Topics in web dev:
+html css
+1 align
+2 float
+3 flex
+4 media queries
+5 responsive
+6 side menu box
+7 span tag
+8 navigation bar
+9 footer and form
+10 header 
+11 hdss...
