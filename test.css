@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
 }
@@ -40,7 +41,7 @@ h2 {
 .cont {
 	width: 100%;
 	height: 100%;
-	background: blue;
+	background: cyan;
 }
 ​
 .inbox {
@@ -49,7 +50,7 @@ h2 {
 	position: relative;
 	top: 2.5em;
 	margin: auto;
-	background: blue;
+	background:cyan;
 	box-sizing: border-box;
 	padding: 0.5em;
 }
@@ -76,4 +77,3 @@ h2 {
 	.grid{
 		width: 100%;
 	}
-}
