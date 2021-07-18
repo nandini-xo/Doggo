@@ -25,6 +25,7 @@ h2 {
 	box-sizing: border-box;
 	float: left;
 	padding: 1em;
+	background-color: cyan;
 }
 
 .column1 {
@@ -32,7 +33,7 @@ h2 {
 	height: 50%;
 	border:5px solid orange;
 	box-sizing: border-box;
-	
+	background: cyan;
 	padding: 1em;
 }
 ​
