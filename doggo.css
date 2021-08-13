@@ -1,0 +1,121 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: right;
+
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 3px;
+  size: contain;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.p
+{
+  font-style:'Garamound';
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px ) and (max-width: 1200px){
+	.row::after{
+		width: 100%;
+	}
+}
+body{
+	margin: 0;
+}
+h2 {
+	text-align: center;
+}
+.grid {
+	width: 66.66%;
+	box-sizing: border-box;
+	float: left;
+}
+.box {
+	width: 50%;
+	height: 400px;
+	border: 1px burlywood;
+	float: left;
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+	background: brown;
+}
+
+.inbox {
+	width: 80%;
+	height: 80%;
+	position: relative;
+	top: 2.5em;
+	margin: auto;
+	background: olive;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+.long{
+	width: 33.33%;
+	height: 800px;
+	border: 1px cyan;
+	padding: 1em;
+}
+
+.col {
+	width: 100%;
+	height: 100%;
+	background: brown
+}
+
+@media screen and (max-width: 768px){
+	.grid{
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px ) and (max-width: 1200px){
+	.grid{
+		width: 100%;
+	}
+}
